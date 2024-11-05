@@ -12,6 +12,7 @@
 ![HLK-LD2410(B)](_media/devices/HLK/LD2410/board_2410b.jpg)
 ![HLK-LD2410C](_media/devices/HLK/LD2410/board_2410c.png)
 
+## Configuration
 ### Wiring
 ![HLK-LD2410-wiring](_media/devices/HLK/LD2410/2410_wiring.png)
 
@@ -23,3 +24,9 @@
 |RX   | GPIOy
 |OUT    | GPIOz
 
+!!! Warning "Warning: The power supply voltage of the module is 5V, and the power supply capacity of the input power supply is required to be greater than 200mA.<br>The module IO output level is 3.3V!"
+
+### Tasmota Settings
+In the **_Configuration -> Configure Module_** page assign:
+
+GPIOx to `DS18x20`
