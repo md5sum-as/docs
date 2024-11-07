@@ -29,4 +29,6 @@
 ### Tasmota Settings
 In the **_Configuration -> Configure Module_** page assign:
 
-GPIOx to `DS18x20`
+- GPIOx to `LD2410 Tx`
+- GPIOy to `LD2410 Rx`
+- GPIOz to `Switch` or `Button`
